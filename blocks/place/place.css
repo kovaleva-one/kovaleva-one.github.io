@@ -1,0 +1,33 @@
+.place {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 481px));
+    gap: 40px 21px;
+    margin-bottom: 80px;
+    justify-content: center;
+}
+
+.place:last-child {
+    margin-bottom: 0;
+}
+
+
+/* добавил */
+@media screen and (max-width: 1140px) {
+    .place{
+        grid-template-columns: repeat(auto-fit, minmax(320px, 458px));
+        gap: 40px 12px;
+    }
+}
+
+@media screen and (max-width: 986px) {
+    .place{
+        grid-template-columns: repeat(auto-fit, minmax(200px, 354px));
+        gap: 40px 12px;
+    }
+}
+
+@media screen and (max-width: 567px) {
+    .place{
+        gap: 24;
+    }
+}
