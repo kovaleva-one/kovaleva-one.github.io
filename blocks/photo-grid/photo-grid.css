@@ -54,6 +54,13 @@
     }
 }
 
+@media screen and (max-width: 678px) and (min-width: 568px) {
+    .photo-grid {
+        grid-template-columns: repeat(2, 273px);
+        gap: 0 6px;
+    }
+}
+
 @media screen and (max-width: 567px) {
     .photo-grid {
         padding-top: 64px;
