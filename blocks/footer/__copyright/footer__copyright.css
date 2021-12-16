@@ -18,3 +18,9 @@
         padding-right: 45px;
     }
 }
+
+@media screen and (max-width: 678px) and (min-width: 568px) {
+    .footer__copyright {
+        font-size: 10px;
+    }
+}
