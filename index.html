@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mesto</title>
+    <link rel="icon" href="images/logo/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="pages/index.css" />
+  </head>
+
+  <body class="page">
+    <div class="page__content">
+      <header class="header">
+        <img
+          src="images/logo/logo.svg"
+          alt="Логотип Mesto"
+          class="header__logo"
+        />
+      </header>
+
+      <main class="content">
+        <section class="profile">
+          <img
+            src="images/profile/image.jpg"
+            alt="Аватар пользователя"
+            class="profile__avatar"
+          />
+          <div class="profile__info">
+            <div class="profile__title">
+              <h1 class="profile__name">Жак-Ив Кусто</h1>
+              <button class="profile__edit-button" type="button"></button>
+            </div>
+            <p class="profile__description">Исследователь океана</p>
+          </div>
+          <button class="profile__add-button" type="button"></button>
+        </section>
+
+        <section class="elements">
+          <ul class="elements__items">
+            <li class="elements__item">
+              <img
+                class="elements__photo"
+                src="images/elements/rostov.jpg"
+                alt="Ростов-на-Дону"
+              />
+              <div class="elements__description">
+                <h3 class="elements__title">Ростов-на-Дону</h3>
+                <button class="elements__like" type="button"></button>
+              </div>
+            </li>
+
+            <li class="elements__item">
+              <img
+                class="elements__photo"
+                src="images/elements/kolomna.jpg"
+                alt="Коломенский Кремль"
+              />
+              <div class="elements__description">
+                <h3 class="elements__title">Коломна</h3>
+                <button class="elements__like" type="button"></button>
+              </div>
+            </li>
+
+            <li class="elements__item">
+              <img
+                class="elements__photo"
+                src="images/elements/derbent.jpg"
+                alt="Крепость Нары-Кала"
+              />
+              <div class="elements__description">
+                <h3 class="elements__title">Дербент</h3>
+                <button class="elements__like" type="button"></button>
+              </div>
+            </li>
+
+            <li class="elements__item">
+              <img
+                class="elements__photo"
+                src="images/elements/moskva.jpg"
+                alt="Москва"
+              />
+              <div class="elements__description">
+                <h3 class="elements__title">Москва</h3>
+                <button class="elements__like" type="button"></button>
+              </div>
+            </li>
+
+            <li class="elements__item">
+              <img
+                class="elements__photo"
+                src="images/elements/elista.jpg"
+                alt="Храм Будды в Элисте"
+              />
+              <div class="elements__description">
+                <h3 class="elements__title">Элиста</h3>
+                <button class="elements__like" type="button"></button>
+              </div>
+            </li>
+
+            <li class="elements__item">
+              <img
+                class="elements__photo"
+                src="images/elements/piter.jpg"
+                alt="Питер"
+              />
+              <div class="elements__description">
+                <h3 class="elements__title">Санкт-Петербург</h3>
+                <button class="elements__like" type="button"></button>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p class="footer__copyright">&#169; 2022 Mesto Russia</p>
+      </footer>
+
+      <section class="popup">
+        <div class="popup__container">
+          <form class="popup__form">
+            <h3 class="popup__title">Редактировать профиль</h3>
+            <div class="popup__field">
+              <input
+                class="popup__input popup__input_type_name"
+                type="text"
+                name="username"
+                value="Жак-Ив Кусто"
+              />
+            </div>
+            <div class="popup__field">
+              <input
+                class="popup__input popup__input_type_description"
+                type="text"
+                name="description"
+                value="Исследователь океана"
+              />
+            </div>
+            <button class="popup__save-button" type="submit">Сохранить</button>
+            <button class="popup__exit-button" type="button"></button>
+          </form>
+        </div>
+      </section>
+
+      <script src="scripts/index.js"></script>
+    </div>
+  </body>
+</html>
