@@ -24,6 +24,6 @@
 
 **GitHub Page**
 
-* [Ссылка на GitHub Page](https://kovaleva-one.github.io/mesto/)
+* [Ссылка на GitHub Page](https://kovaleva-one.github.io/)
 
 Лучи добра проверяющему!
