@@ -1,0 +1,12 @@
+.popup__form-card {
+    margin: 34px 36px 36px 36px;
+    position: relative;
+    height: 260px;
+}
+
+@media screen and (max-width: 767px) {
+    .popup__form-card {
+        margin: 25px 22px 22px 22px;
+        height: 275px;
+    }
+  }
